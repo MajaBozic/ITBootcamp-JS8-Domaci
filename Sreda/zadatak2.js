@@ -8,16 +8,7 @@ let c, k, iK;
 c = 750;
 k = 1650; //650
 
-if(k > c){
-    iK = k - c;
-}
+iK = k - c;
 
-while(k < c){
-    console.log('Nemate dovoljno novca, vec samo ' + k + ' dinara.');
-    break
-}
-
-while(k > c) {
-    console.log('Uspesno ste kupili proizvod. Imate jos ' + iK + ' dinara.');
-    break
-}
+(k > c) ? console.log('Uspesno ste kupili proizvod. Imate jos ' + iK + ' dinara.')    
+    : console.log('Nemate dovoljno novca, vec samo ' + k + ' dinara.');
