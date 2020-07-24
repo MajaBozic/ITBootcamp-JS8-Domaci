@@ -4,16 +4,17 @@
 let a, b
 
 if(a = 7, b = 5){
+    console.log('Odabrani brojevi su', a,'i', b);
     let Z = a + b;
-    console.log(Z);
+    console.log('Zbir =>', Z);
     let R = a - b;
-    console.log(R);
+    console.log('Razlika =>', R);
     let P = a * b;
-    console.log(P);
+    console.log('Proizvod =>', P);
     let K = a / b;
-    console.log(K);
+    console.log('Kolicnik =>', K);
     let O = a % b
-    console.log(O);
+    console.log('Ostatak pri deljenju prvog drugim =>', O);
     let S = Math.pow(7, 5)
-    console.log(S);
+    console.log('Stepenovanje prvog drugim =>', S);
 }
